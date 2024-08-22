@@ -1,0 +1,15 @@
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignore bancos de dados locais e arquivos de configurações específicas
+*.sql
+
+# Ignore arquivos e diretórios de ambiente de desenvolvimento
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore arquivos de backup e de compilação
+*.bak
+*.backup
