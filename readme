@@ -1,0 +1,104 @@
+## Enunciado do Projeto: Manipulação de Dados em SQL
+
+### Objetivo
+
+O objetivo deste projeto é criar e manipular uma tabela de vendas utilizando comandos SQL. O projeto demonstra operações básicas de SQL, como criação de tabelas, inserção de dados, consulta, ordenação, filtragem, atualização e exclusão de registros.
+
+### Descrição
+
+1. **Criação do Banco de Dados e da Tabela**:
+   - Crie um banco de dados chamado `Comandos`.
+   - Dentro deste banco de dados, crie uma tabela chamada `Vendas` com as seguintes colunas:
+     - `ID_Vendas`: Identificador único (inteiro) para cada venda.
+     - `Curso`: Nome do curso (texto).
+     - `Aluno`: Nome do aluno (texto).
+     - `Estado`: Estado de origem do aluno (texto).
+     - `Valor`: Valor da venda (decimal).
+
+2. **Inserção de Dados**:
+   - Insira 10 registros de vendas na tabela `Vendas`.
+
+3. **Consultas SQL**:
+   - Selecione todos os registros da tabela `Vendas`.
+   - Selecione apenas as colunas `Aluno`, `Curso` e `Valor`.
+   - Ordene os registros por nome do aluno.
+   - Filtre os registros que pertencem ao estado do Rio de Janeiro (`RJ`).
+
+4. **Atualização de Dados**:
+   - Atualize o valor dos cursos do tipo `VBA` para `150`.
+
+5. **Remoção de Dados**:
+   - Exclua um registro com base no `ID_Venda`.
+   - Remova todos os registros da tabela utilizando `TRUNCATE`.
+
+### Entregáveis
+
+- Script SQL contendo todos os comandos descritos.
+- Explicação das operações realizadas e seus resultados esperados.
+
+### Avaliação
+
+O projeto será avaliado com base na correta implementação dos comandos SQL, na estruturação do banco de dados, e na execução correta das operações de manipulação de dados.
+
+
+# Comandos SQL - Projeto de Banco de Dados
+
+Este projeto é um exemplo prático de comandos SQL para a criação, manipulação e consulta de uma tabela de vendas. O objetivo é fornecer uma base de aprendizado e prática para entender as operações básicas de SQL, incluindo criação de tabelas, inserção de dados, consultas, ordenação, filtros, atualização e remoção de registros.
+
+## Estrutura do Banco de Dados
+
+O banco de dados `Comandos` contém uma única tabela chamada `Vendas`. A tabela armazena informações sobre vendas de cursos, incluindo o nome do curso, o aluno que realizou a compra, o estado de origem e o valor da venda.
+
+### Esquema da Tabela `Vendas`
+
+- `ID_Vendas` (INT): Identificador único para cada venda.
+- `Curso` (VARCHAR 100): Nome do curso vendido.
+- `Aluno` (VARCHAR 100): Nome do aluno que comprou o curso.
+- `Estado` (VARCHAR 100): Estado de origem do aluno.
+- `Valor` (DECIMAL 10,2): Valor da venda do curso.
+
+### Comandos SQL Executados
+
+1. **Criação do Banco de Dados e Tabela**: 
+    - Criação do banco de dados `Comandos`.
+    - Criação da tabela `Vendas` dentro do banco de dados.
+
+2. **Inserção de Dados**: 
+    - Inserção de 10 registros de vendas na tabela `Vendas`.
+
+3. **Consultas SQL**:
+    - Seleção de todos os registros da tabela.
+    - Seleção específica de colunas `Aluno`, `Curso` e `Valor`.
+    - Ordenação dos registros pelo nome do aluno.
+    - Filtragem de registros com base no estado `RJ`.
+
+4. **Atualização de Dados**:
+    - Atualização do valor de cursos do tipo `VBA` para `150`.
+
+5. **Remoção de Dados**:
+    - Exclusão de um registro específico com base no `ID_Venda`.
+    - Truncamento da tabela, removendo todos os registros.
+
+## Uso
+
+Execute os comandos SQL fornecidos neste projeto para praticar as operações de criação e manipulação de dados em um banco de dados SQL.
+
+## Pré-requisitos
+
+- Um ambiente de banco de dados SQL (MySQL, PostgreSQL, etc.).
+- Um cliente para executar os comandos SQL, como MySQL Workbench, DBeaver, ou linha de comando SQL.
+
+## Como Executar
+
+1. Clone o repositório ou copie os comandos SQL.
+2. Execute os comandos no ambiente SQL desejado, iniciando pela criação do banco de dados e da tabela.
+3. Utilize os comandos de inserção, consulta, atualização e exclusão conforme necessário.
+
+## Autor
+
+Este projeto foi desenvolvido para fins educacionais e de prática em SQL.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
+
